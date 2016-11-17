@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical">
+    <include
+        android:id="@+id/include_main_head"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        layout="@layout/layout_head" />
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="6"
+       android:orientation="vertical" >
+       <ScrollView 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content">
+         <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+            <LinearLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="35dp"
+                  android:layout_marginTop="3dp"
+                  android:gravity="center"
+                  android:orientation="horizontal" >
+                  <TextView
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:layout_marginLeft="3dp"
+                  android:layout_weight="2"
+                  android:gravity="center"
+                  android:text="维修单号：" />
+                  <Spinner
+                  android:id="@+id/spr_repair_department"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:layout_marginRight="10dp"
+                  android:layout_weight="1"
+                  android:background="@drawable/spinner_background"
+                  android:gravity="center" />
+            </LinearLayout>
+            <View style="@style/SingleLine"/>
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="维修时间：" />
+
+                <TextView
+	                android:id="@+id/at_repair_time"
+	                android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+	                android:background="@drawable/edittext_ok"/>
+            </LinearLayout>
+            <View style="@style/SingleLine"/>
+            
+              <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="备注：" />
+
+                <EditText
+                    android:id="@+id/et_repair_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_ok"
+                    android:gravity="top|left"
+                    android:inputType="textMultiLine"
+                    android:maxLines="2"
+                    android:minLines="2" />
+            	</LinearLayout>
+            	<View style="@style/SingleLine"/>
+         </LinearLayout>
+       </ScrollView> 
+       
+       
+   </LinearLayout> 
+    
+       <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:background="@drawable/edittext_ok"
+            android:orientation="vertical" >
+     		<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_repair_scan"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="开始寻卡" />
+                <Button
+                    android:id="@+id/btn_repair_clear"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="清空" />
+            	</LinearLayout>
+       	 <View style="@style/SingleLine"/>    
+         <ListView
+                android:id="@+id/lv_repair"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp" 
+                android:divider="@null"/>
+    	</LinearLayout>
+    </LinearLayout>
+    <include 
+        android:id="@+id/detail_item_repair"
+        layout="@layout/repair_detail"
+        android:layout_width="match_parent"
+    	android:layout_height="350dp"
+        android:layout_marginTop="80dp"
+    	android:layout_gravity="center"
+        android:visibility="gone"
+        />
+</FrameLayout>

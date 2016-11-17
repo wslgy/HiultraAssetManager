@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_image.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\check_image.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_asset.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\selector_tab_asset.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_save_ok.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\button_save_ok.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_search_ok.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\button_search_ok.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_search_dropdown_dark.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_ic_clear_holo_light.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_search.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\selector_tab_search.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_data.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\selector_tab_data.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_red_point.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\design_red_point.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_bg_btn.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\selector_bg_btn.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\btn_bg.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_select.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\text_select.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gv.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\bg_gv.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_back_ok.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\button_back_ok.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\bg_circle.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_button.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\login_button.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_ic_clear.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_progressbar.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\common_progressbar.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\spinner_background.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\forum_item.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\forum_item.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\manage_bg_select.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\manage_bg_select.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_edittext.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\selector_edittext.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_ok.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\edittext_ok.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_bg_cache.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable\\selector_bg_cache.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_search_dropdown_light.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_spinner_ab_holo_light.xml"
+    }
+]

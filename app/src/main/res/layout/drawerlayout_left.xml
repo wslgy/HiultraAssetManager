@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical"
+    android:clickable="true" >
+
+    <LinearLayout
+        android:id="@+id/manage_asset"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/asset_manage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="资产管理"
+            android:textSize="15sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <View
+        style="@style/SingleLine"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <LinearLayout
+        android:id="@+id/manage_goods"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/stock_manage"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="物品管理"
+            android:textSize="15sp" 
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <View
+        style="@style/SingleLine"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+</LinearLayout>

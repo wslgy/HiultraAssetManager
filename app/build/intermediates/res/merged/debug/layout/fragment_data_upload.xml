@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="@color/theme_color">
+	    <TextView 
+	        android:id="@+id/id_textView"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="数据同步"
+	    	android:layout_centerInParent="true"
+	    	android:textColor="@color/white"
+	    	android:textSize="16sp"/>
+
+	    <ImageView
+	        android:layout_width="15dp"
+	        android:layout_height="15dp"
+	        android:layout_centerVertical="true"
+	        android:layout_toLeftOf="@+id/id_textView"
+	        android:layout_marginRight="5dp"
+	        android:background="@drawable/data_common" />
+
+	</RelativeLayout> 
+	<ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="80dp"
+	    android:background="@drawable/data_theme_image"/>
+	<View 
+	    style="@style/SingleLineZero" />
+	<RelativeLayout 
+	     style="@style/data_layout_common">	    <ImageView
+	        style="@style/data_image_common"
+	    	android:background="@drawable/image_base"/> 
+	    <TextView 
+	        style="@style/data_text_common" 
+	        android:text="基础信息"/>"
+	    <ProgressBar
+             android:id="@+id/pb_jichu"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+	    <TextView 
+	        style="@style/data_text_common"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="40dp"
+	        android:text="同步"/>
+	     <CheckBox 
+	        android:id="@+id/iv_jichu"
+	        style="@style/data_checkbox_common"/>
+	    </RelativeLayout>
+	<View 
+	    style="@style/SingleLineZero" />
+	<RelativeLayout 
+	     style="@style/data_layout_common">
+	    <ImageView
+	        style="@style/data_image_common"
+	    	android:background="@drawable/image_transfer"/> 
+	    <TextView 
+	        style="@style/data_text_common" 
+	        android:text="调拨信息"/>"
+	    <ProgressBar
+             android:id="@+id/pb_diaobo"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+
+	    <TextView 
+	        style="@style/data_text_common"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="40dp"
+	        android:text="同步"/>
+	    <CheckBox 
+	        android:id="@+id/iv_diaobo"
+	        style="@style/data_checkbox_common"/>
+	    	</RelativeLayout>
+	  <View 
+	    style="@style/SingleLineZero" />
+	<RelativeLayout 
+	     style="@style/data_layout_common">
+	    <ImageView
+	        style="@style/data_image_common"
+	    	android:background="@drawable/image_scrap"/> 
+	    <TextView 
+	        style="@style/data_text_common" 
+	        android:text="报废信息"/>"
+	    <ProgressBar
+             android:id="@+id/pb_baofei"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+
+	    <TextView 
+	        style="@style/data_text_common"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="40dp"
+	        android:text="同步"/>
+	    <CheckBox 
+	        android:id="@+id/iv_baofei"
+	        style="@style/data_checkbox_common"/>
+	    	</RelativeLayout>
+	   <View 
+	    style="@style/SingleLineZero" />
+	<RelativeLayout 
+	     style="@style/data_layout_common">
+	    <ImageView
+	        style="@style/data_image_common"
+	    	android:background="@drawable/image_stop"/> 
+	    <TextView 
+	        style="@style/data_text_common" 
+	        android:text="报停信息"/>"
+	    <ProgressBar
+             android:id="@+id/pb_baoting"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+
+	    <TextView 
+	        style="@style/data_text_common"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="40dp"
+	        android:text="同步"/>
+	    <CheckBox 
+	        android:id="@+id/iv_baoting"
+	        style="@style/data_checkbox_common"/>
+	    	</RelativeLayout>
+	   <View 
+	    style="@style/SingleLineZero" />
+	<RelativeLayout 
+	     style="@style/data_layout_common">
+	    <ImageView
+	        style="@style/data_image_common"
+	    	android:background="@drawable/image_inspect"/> 
+	    <TextView 
+	        style="@style/data_text_common" 
+	        android:text="巡检信息"/>"
+	    <ProgressBar
+             android:id="@+id/pb_inspect"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+
+	    <TextView 
+	        style="@style/data_text_common"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="40dp"
+	        android:text="同步"/>
+	    <CheckBox 
+	        android:id="@+id/iv_inspect"
+	        style="@style/data_checkbox_common"/>
+	        />
+	    	</RelativeLayout>
+	   <View 
+	    style="@style/SingleLineZero" />
+	<RelativeLayout 
+	     style="@style/data_layout_common">
+	    <ImageView
+	        style="@style/data_image_common"
+	    	android:background="@drawable/image_inventory"/> 
+	    <TextView 
+	        style="@style/data_text_common" 
+	        android:text="盘点信息"/>"
+	    <ProgressBar
+             android:id="@+id/pb_pandian"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+
+	    <TextView 
+	        style="@style/data_text_common"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="40dp"
+	        android:text="同步"/>
+	    <CheckBox 
+	        android:id="@+id/iv_pandian"
+	        style="@style/data_checkbox_common"/>
+	    	</RelativeLayout>
+	   <View 
+	    style="@style/SingleLineZero" />
+	<RelativeLayout 
+	     style="@style/data_layout_common">
+	    <ImageView
+	        style="@style/data_image_common"
+	    	android:background="@drawable/inage_handle"/> 
+	    <TextView 
+	        style="@style/data_text_common" 
+	        android:text="处置信息"/>"
+	    <ProgressBar
+             android:id="@+id/pb_chuzhi"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+
+	    <TextView 
+	        style="@style/data_text_common"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="40dp"
+	        android:text="同步"/>
+	    <CheckBox 
+	        android:id="@+id/iv_chuzhi"
+	        style="@style/data_checkbox_common"/>
+	    	</RelativeLayout>
+	   <View 
+	    style="@style/SingleLineZero" />
+	<RelativeLayout 
+	     style="@style/data_layout_common">
+	    <ImageView
+	        style="@style/data_image_common"
+	    	android:background="@drawable/image_repair"/> 
+	    <TextView 
+	        style="@style/data_text_common" 
+	        android:text="维修信息"/>"
+	    <ProgressBar
+             android:id="@+id/pb_weixiu"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+
+	    <TextView 
+	        style="@style/data_text_common"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="40dp"
+	        android:text="同步"/>
+	    <CheckBox 
+	        android:id="@+id/iv_weixiu"
+	        style="@style/data_checkbox_common"/>
+	    	</RelativeLayout>
+	   <View 
+	    style="@style/SingleLineZero" />
+	 <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="5dp" >
+
+                <Button
+                    android:id="@+id/btn_data_upload"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_ok"
+                    android:text="上传" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" 
+                android:layout_margin="5dp" >
+
+                <Button
+                    android:id="@+id/btn_data_download_only"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_ok"
+                    android:text="下载" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"  >
+
+                <Button
+                    android:id="@+id/btn_data_del"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_ok"
+                    android:text="清空" />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

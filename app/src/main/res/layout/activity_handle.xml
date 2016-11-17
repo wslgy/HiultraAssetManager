@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <include
+        android:id="@+id/include_main_head"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        layout="@layout/layout_head" />
+       <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="6"
+            android:orientation="vertical" >
+    <ScrollView 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content">
+         <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+               <LinearLayout
+                  style="@style/common_linearlayout" >
+                  <TextView
+	                  style="@style/common_textview"
+	                  android:text="处置单号：" />
+                  <Spinner
+	                  android:id="@+id/spr_handle_batchnumber"
+	                  android:layout_width="fill_parent"
+	                  android:layout_height="fill_parent"
+	                  android:layout_marginRight="10dp"
+	                  android:layout_weight="1"
+	                  android:background="@drawable/spinner_background"
+	                  android:gravity="center" />
+            </LinearLayout>
+             <View style="@style/SingleLine"/>
+			<LinearLayout
+                  style="@style/common_linearlayout" >
+                  <TextView
+	                  style="@style/common_textview"
+	                  android:text="处置方式：" />
+                   <TextView
+	                    android:id="@+id/spr_handle_way"
+	                    style="@style/common_right_textview"/>
+            </LinearLayout>
+            <View style="@style/SingleLine"/>
+            <LinearLayout
+                  style="@style/common_linearlayout" >
+                  <TextView
+	                  style="@style/common_textview"
+	                  android:text="处置部门：" />
+                  <TextView
+                    android:id="@+id/spr_handle_department"
+                    style="@style/common_right_textview"/>
+            </LinearLayout>
+            <View style="@style/SingleLine"/>
+            <LinearLayout
+                style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="处置时间：" />
+
+                <TextView
+	                android:id="@+id/at_handle_time"
+	                style="@style/common_right_textview"/>
+            </LinearLayout>
+             <View style="@style/SingleLine"/>
+              <LinearLayout
+                style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="所得收入：" />
+
+                 <EditText
+                    android:id="@+id/et_handle_incount"
+                    style="@style/common_right_textview"
+                    android:gravity="top|left"
+                    android:inputType="textMultiLine"
+                    android:maxLines="1"/>
+            </LinearLayout>
+             <View style="@style/SingleLine"/>
+          <LinearLayout
+                style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="所花成本：" />
+
+                <EditText
+                    android:id="@+id/et_handle_out"
+                    style="@style/common_right_textview"
+                    android:gravity="top|left"
+                    android:inputType="textMultiLine"
+                    android:maxLines="1"/>
+            </LinearLayout>
+             <View style="@style/SingleLine"/>
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="备注：" />
+
+                <EditText
+                    android:id="@+id/et_handle_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_ok"
+                    android:gravity="top|left"
+                    android:inputType="textMultiLine"
+                    android:maxLines="2"
+                    android:minLines="2" />
+            	</LinearLayout>
+             <View style="@style/SingleLine"/>
+         	</LinearLayout>  
+         
+       	</ScrollView>
+       </LinearLayout>
+       
+       
+       <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:background="@drawable/edittext_ok"
+            android:orientation="vertical" >
+     		<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_handle_clear"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="清空" />
+
+                <Button
+                    android:id="@+id/btn_handle_scan"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="扫描" />
+            	</LinearLayout>
+       	 <View style="@style/SingleLine"/>    
+         <ListView
+                android:id="@+id/lv_handle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                android:divider="@null" />
+    </LinearLayout>
+</LinearLayout>

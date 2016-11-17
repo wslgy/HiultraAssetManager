@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/data_theme_image"/>
+    <View 
+        style="@style/SingleLineZero" />
+    <RelativeLayout 
+         style="@style/data_layout_common">
+        <ImageView
+            style="@style/data_image_common"
+            android:background="@drawable/image_base"/> 
+        <TextView 
+            style="@style/data_text_common" 
+            android:text="基础信息"/>"
+        <ProgressBar
+             android:id="@+id/pb_goods_base"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+        <TextView 
+            style="@style/data_text_common"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:text="同步"/>
+         <CheckBox 
+            android:id="@+id/cb_goods_base"
+            style="@style/data_checkbox_common"/>
+        </RelativeLayout>
+    <View 
+        style="@style/SingleLineZero" />
+    <RelativeLayout 
+         style="@style/data_layout_common">
+        <ImageView
+            style="@style/data_image_common"
+            android:background="@drawable/image_googs_in"/> 
+        <TextView 
+            style="@style/data_text_common" 
+            android:text="入库信息"/>"
+        <ProgressBar
+             android:id="@+id/pb_goods_in"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+
+        <TextView 
+            style="@style/data_text_common"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:text="同步"/>
+        <CheckBox 
+            android:id="@+id/cb_goods_in"
+            style="@style/data_checkbox_common"/>
+            </RelativeLayout>
+      <View 
+        style="@style/SingleLineZero" />
+    <RelativeLayout 
+         style="@style/data_layout_common">
+        <ImageView
+            style="@style/data_image_common"
+            android:background="@drawable/image_goods_return"/> 
+        <TextView 
+            style="@style/data_text_common" 
+            android:text="退库信息"/>"
+        <ProgressBar
+             android:id="@+id/pb_goods_out"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+
+        <TextView 
+            style="@style/data_text_common"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:text="同步"/>
+        <CheckBox 
+            android:id="@+id/cb_goods_out"
+            style="@style/data_checkbox_common"/>
+            </RelativeLayout>
+       <View 
+        style="@style/SingleLineZero" />
+    <RelativeLayout 
+         style="@style/data_layout_common">
+        <ImageView
+            style="@style/data_image_common"
+            android:background="@drawable/image_goods_use"/> 
+        <TextView 
+            style="@style/data_text_common" 
+            android:text="领用信息"/>"
+        <ProgressBar
+             android:id="@+id/pb_goods_use"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+
+        <TextView 
+            style="@style/data_text_common"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:text="同步"/>
+        <CheckBox 
+            android:id="@+id/cb_goods_use"
+            style="@style/data_checkbox_common"/>
+            </RelativeLayout>
+       <View 
+        style="@style/SingleLineZero" />
+    <RelativeLayout 
+         style="@style/data_layout_common">
+        <ImageView
+            style="@style/data_image_common"
+            android:background="@drawable/image_goods_inventory"/> 
+        <TextView 
+            style="@style/data_text_common" 
+            android:text="盘点信息"/>"
+        <ProgressBar
+             android:id="@+id/pb_goods_inventory"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="140dp"
+             android:layout_height="3dp"
+             android:layout_centerInParent="true"
+             android:max="100" />
+
+        <TextView 
+            style="@style/data_text_common"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:text="同步"/>
+        <CheckBox 
+            android:id="@+id/cb_goods_inventory"
+            style="@style/data_checkbox_common"/>
+            />
+            </RelativeLayout>
+       <View 
+        style="@style/SingleLineZero" />
+     <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="5dp" >
+
+                <Button
+                    android:id="@+id/btn_data_upload"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_ok"
+                    android:text="上传" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" 
+                android:layout_margin="5dp" >
+
+                <Button
+                    android:id="@+id/btn_data_download_only"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_ok"
+                    android:text="下载" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"  >
+
+                <Button
+                    android:id="@+id/btn_goods_data_del"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_ok"
+                    android:text="清空" />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

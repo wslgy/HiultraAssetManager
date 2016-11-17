@@ -1,0 +1,506 @@
+[
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_share_pack_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_loading.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_loading.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\image_scrap.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\image_scrap.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_clear_search_api_disabled_holo_light.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_clear_search_api_disabled_holo_light.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_asset_stop.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_asset_stop.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_voice_search_api_holo_light.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_voice_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_clear_search_api_holo_light.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_clear_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_transfer_choose_asset.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_transfer_choose_asset.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_transparent_light_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_search_right_selected_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_textfield_search_right_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\image_inspect.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\image_inspect.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_transparent_dark_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_tab_selected_pressed_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_go.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_go.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_search_right_default_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_textfield_search_right_default_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_focused_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_voice_search.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_voice_search.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_outbox.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_outbox.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_solid_light_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_solid_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_longpressed_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_normal_cache.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\bg_normal_cache.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_ab_back_holo_light.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_ab_back_holo_light.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_moreoverflow_normal_holo_dark.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_normal_holo_dark.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_accept.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_accept.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_menu_hardkey_panel_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_top_choose_asset.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_top_choose_asset.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_spinner_ab_disabled_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_tab_selected_focused_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_bottom_solid_light_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_bottom_solid_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_menu_dropdown_panel_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_menu_dropdown_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\data_normal_blue.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\data_normal_blue.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\search_normal_blue.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\search_normal_blue.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_huadian.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_huadian.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_stacked_transparent_light_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_stacked_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_menu_dropdown_panel_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_menu_dropdown_panel_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_commit_search_api_holo_light.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_commit_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_spinner_ab_pressed_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_asset_inspection.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_asset_inspection.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_spinner_ab_pressed_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_ab_back_holo_dark.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_divider_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_list_divider_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_cab_background_top_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_cab_background_top_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_bottom_solid_dark_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_bottom_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_spinner_ab_default_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_default_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_spinner_ab_default_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_default_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_home.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_home.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_stacked_transparent_dark_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_stacked_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_btn_normal.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\bg_btn_normal.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_search.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_search.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_login_2.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_login_2.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_asset_repair.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_asset_repair.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_later.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_later.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_search_api_holo_light.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_wait.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_wait.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_search_right_selected_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_textfield_search_right_selected_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_stacked_solid_dark_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_stacked_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_normal.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\btn_normal.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_spinner_ab_focused_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_focused_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_asset_scrap.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_asset_scrap.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\manager_normal_blue.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\manager_normal_blue.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_error_page.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\ic_error_page.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_clear_disabled.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_clear_disabled.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\image_transfer.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\image_transfer.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_spinner_ab_focused_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_upload.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_upload.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_tab_unselected_pressed_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_cab_background_bottom_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_cab_background_bottom_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_menu_hardkey_panel_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_actionbar.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\bg_actionbar.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\image_base.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\image_base.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_spinner_ab_disabled_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_pressed_cache.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\bg_pressed_cache.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_asset_transfer.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_asset_transfer.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_share_pack_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_cab_background_top_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_cab_background_top_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_search_default_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_textfield_search_default_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_share_holo_light.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_scrap_choose_asset.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_scrap_choose_asset.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_asset_handle.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_asset_handle.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_error.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_error.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_search_selected_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_textfield_search_selected_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_inspection_choose_asset.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_inspection_choose_asset.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_download.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_download.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_solid_dark_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_cab_done_holo_light.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_cab_done_holo_light.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\image_repair.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\image_repair.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_inbox.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_inbox.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_search_right_default_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_textfield_search_right_default_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_bottom_transparent_dark_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_bottom_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_cab_done_holo_dark.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_cab_done_holo_dark.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_maintain_choose_asset.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_maintain_choose_asset.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_share_holo_dark.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_menu_share_holo_dark.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_pressed.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\btn_pressed.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_del.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_del.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_btn_pressed.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\bg_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\manager_select_blue.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\manager_select_blue.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_bottom_transparent_light_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_bottom_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_login_1.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_login_1.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_cab_background_bottom_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_cab_background_bottom_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\image_login_headtwo.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\image_login_headtwo.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_tab_selected_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_tab_selected_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_go_search_api_holo_light.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_go_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_login_head.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_login_head.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_check_choose_asset.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_check_choose_asset.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_search_default_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_textfield_search_default_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_repair_choose_asset.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_repair_choose_asset.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_handle_choose_asset.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_handle_choose_asset.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_logo.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_logo.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_stacked_solid_light_holo.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ab_stacked_solid_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_asset_check.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_asset_check.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_asset_maintain.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\icon_asset_maintain.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\search_select_blue.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\search_select_blue.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_moreoverflow_normal_holo_light.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\data_select_blue.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\data_select_blue.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\image_inventory.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\image_inventory.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_divider_holo_light.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_list_divider_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\inage_handle.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\inage_handle.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_commit_search_api_holo_dark.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_ic_commit_search_api_holo_dark.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\image_stop.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\image_stop.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_search_selected_holo_dark.9.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-xhdpi\\abc_textfield_search_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\img_stop_choose_asset.png",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\drawable-xhdpi\\img_stop_choose_asset.png"
+    }
+]

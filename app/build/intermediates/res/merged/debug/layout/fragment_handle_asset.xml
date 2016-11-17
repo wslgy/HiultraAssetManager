@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        style="@style/default_ll"
+        >
+        <TextView 
+            style="@style/default_text"
+            android:text="处置单号"
+            />
+        <TextView 
+            android:id="@+id/tv_number"
+            style="@style/default_right"
+            android:background="@drawable/editext_2"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        style="@style/default_ll">
+        <TextView 
+            style="@style/default_text"
+            android:text="处置方式"
+            />
+        <Spinner 
+            android:id="@+id/sp_handleType"
+            style="@style/default_right"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        style="@style/default_ll">
+        <TextView 
+            style="@style/default_text"
+            android:text="所花成本"
+            />
+        <EditText 
+            android:id="@+id/et_income"
+            style="@style/default_right"
+            android:background="@drawable/edittext_ok"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        style="@style/default_ll">
+        <TextView 
+            style="@style/default_text"
+            android:text="所花成本"
+            />
+        <EditText 
+            android:id="@+id/et_cost"
+            style="@style/default_right"
+            android:background="@drawable/edittext_ok"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        style="@style/default_ll">
+        <TextView 
+            style="@style/default_text"
+            android:text="备注信息"
+            />
+        <EditText 
+            android:id="@+id/et_remark_check"
+            style="@style/default_right"
+            android:background="@drawable/edittext_ok"
+            />
+    </LinearLayout>
+        
+    <LinearLayout 
+        style="@style/default_ll">
+        <TextView 
+            style="@style/default_text"
+            android:text="处置数量"
+            />
+        <TextView 
+            android:id="@+id/tv_count"
+            style="@style/default_right"
+            />
+        <Button 
+            android:id="@+id/btn_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="处置结束"
+            android:textSize="13sp"
+            android:background="@drawable/selector_bg_btn"
+            />
+    </LinearLayout>
+    
+    <com.hiultra.assetManagerNeutral.ui.view.SwipeDismissListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:divider="@null"
+        android:scrollbars="@null"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        >
+        
+        <TextView 
+            android:id="@+id/tv_all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="全部"
+            android:background="@color/bg_lightGray"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            />
+        
+        <TextView
+            android:id="@+id/tv_check"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bg_darkGray"
+            android:gravity="center"
+            android:text="处置到"
+            android:textSize="12sp" />
+        
+        <TextView
+            android:id="@+id/tv_uncheck"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bg_darkGray"
+            android:gravity="center"
+            android:text="未处置"
+            android:textSize="12sp" />
+        
+    </LinearLayout>
+    
+</LinearLayout>

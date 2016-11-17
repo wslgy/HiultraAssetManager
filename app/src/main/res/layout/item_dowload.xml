@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/com.minttown.hiultra">
+
+    <LinearLayout
+        android:id="@+id/ll_download"
+        style="@style/default_ll" >
+
+        <TextView
+            android:id="@+id/tv_download"
+            style="@style/default_text"
+            android:text="@string/test_text" />
+
+        <com.hiultra.assetManagerNeutral.ui.view.HorizontalProgressBarWithProgress
+            app:progress_reach_color="@color/bg_actionbar"
+            android:id="@+id/pb_download"
+            style="@style/pb_download" />
+
+        <ImageView
+            android:id="@+id/iv_download"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/icon_inbox" />
+    </LinearLayout>
+
+    <View style="@style/default_devide" />
+
+</LinearLayout>

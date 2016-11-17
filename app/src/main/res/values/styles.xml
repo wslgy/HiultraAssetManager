@@ -1,0 +1,336 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- <<<<整改后>>>> -->
+    <style name="default_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="default_text">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="default_text_withDrawable">
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:drawablePadding">1dp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="default_right">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="default_right_center">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="pb_download">
+        <item name="android:max">100</item>
+        <item name="android:progress">0</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="default_devide">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black_light</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    
+    <style name="rl_item_check">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:background">@color/light_gray</item>
+    </style>
+    
+    <style name="tv_item_check">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="tv1_item_check">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <!-- <<<<整改前>>>> -->
+    <!-- 字体阴影style -->
+    <style name="StringStyle_yinying">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:background">@null</item>
+    </style>
+    <!-- 标题的样式 -->
+    <style name="top_title">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <!-- 黑边的颜色 -->
+        <item name="android:shadowColor">#B0000000</item>
+        <!-- 黑边的半径 -->
+        <item name="android:shadowRadius">3.0</item>
+        <!-- x方向 -->
+        <item name="android:shadowDx">0.5</item>
+        <!-- y方向 -->
+        <item name="android:shadowDy">0.5</item>
+    </style>
+
+    <style name="TextView_listDatail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <!-- 横线 -->
+    <style name="SingleLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">#999999</item>
+    </style>
+
+    <style name="SingleLineZero">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#999999</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    <!-- 竖线 -->
+    <style name="verticalLine">
+        <item name="android:layout_width">0.7dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">#000000</item>
+    </style>
+    <!-- 资产巡检模块条目详情界面的线性布局样式 -->
+    <style name="ll_detail_item_inspect">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2.5dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 资产巡检模块详情界面左侧TextView样式 -->
+    <style name="tv_detail_item_inspect_left">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">35</item>
+        <item name="android:gravity">end|start</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 资产巡检模块详情界面右侧TextView样式 -->
+    <style name="tv_detail_item_inspect_right">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">45</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 资产巡检模块详情界面EditText样式 -->
+    <style name="et_detail_item_inspect">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">45</item>
+        <item name="android:background">@drawable/edittext_ok</item>
+    </style>
+
+    <!-- 资产巡检模块详情界面按钮样式 -->
+    <style name="btn_detail_item_inspect">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@color/theme_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="rg_btn_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:ellipsize">marquee</item>
+                        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">2.0dip</item>
+    </style>
+    <!-- 数据下载模块image样式 -->
+    <style name="data_image_common">
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!-- 数据下载模块text样式 -->
+    <style name="data_text_common">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!-- 数据下载模块checkimage样式 -->
+    <style name="data_checkImage_common">
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:background">@drawable/check_image</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!-- 数据下载模块relativelayout样式 -->
+    <style name="data_layout_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    <!-- 数据下载模块progressBar样式 -->
+    <style name="data_progress_common">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:max">100</item>
+    </style>
+    <!-- 数据下载模块checkbox样式 -->
+    <style name="data_checkbox_common">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:checked">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/check_image</item>
+    </style>
+    <!-- 产品模块左侧文字样式 -->
+    <style name="common_textview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+    <!-- 产品模块linearlayout样式 -->
+    <style name="common_linearlayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- 产品模块Remark的linearlayout样式 -->
+    <style name="Remark_linearlayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 产品模块右侧文字样式 -->
+    <style name="common_right_textview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/edittext_ok</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- 产品模块spinner样式 -->
+    <style name="common_spinner">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/spinner_background</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 产品模块Edittext样式 -->
+    <style name="common_edittext">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/edittext_ok</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- 产品模块中间Button样式 -->
+    <style name="common_center_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- 产品模块底部扫描Button样式 -->
+    <style name="bottom_scan_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

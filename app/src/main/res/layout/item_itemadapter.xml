@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.hiultra.assetManagerNeutral.ui.view.DrawableCenterTextView
+        android:id="@+id/tv_item_itemAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/icon_asset_check"
+        android:drawablePadding="10dp"
+        android:padding="5dp"
+        android:text="条目"
+        android:textColor="@color/black_light"
+        android:textSize="18sp" />
+
+</RelativeLayout>

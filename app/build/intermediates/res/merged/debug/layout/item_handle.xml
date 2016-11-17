@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_item_check"
+        style="@style/rl_item_check" >
+
+        <LinearLayout
+            android:id="@+id/ll_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/tv_item_check"
+                android:text="@string/text_asset_code" />
+
+            <TextView
+                android:id="@+id/tv_code"
+                style="@style/tv_item_check"
+                android:text="装备编码" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ll_code"
+            android:layout_marginTop="3dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/tv_item_check"
+                        android:text="@string/text_asset_name" />
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        style="@style/tv1_item_check"
+                        android:text="装备名称" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/tv_item_check"
+                        android:text="@string/text_asset_spec" />
+
+                    <TextView
+                        android:id="@+id/tv_specification"
+                        style="@style/tv1_item_check"
+                        android:text="规格" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/tv_item_check"
+                        android:text="@string/text_asset_model" />
+
+                    <TextView
+                        android:id="@+id/tv_model"
+                        style="@style/tv1_item_check"
+                        android:text="资产分类" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/tv_item_check"
+                        android:text="@string/text_department" />
+
+                    <TextView
+                        android:id="@+id/tv_department"
+                        style="@style/tv1_item_check"
+                        android:text="使用部门" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/tv_item_check"
+                        android:text="备注信息" />
+
+                    <TextView
+                        android:id="@+id/tv_warehouse"
+                        style="@style/tv1_item_check"
+                        android:text="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/tv_item_check"
+                        android:text="@string/text_result_check" />
+
+                    <TextView
+                        android:id="@+id/tv_CheckResult"
+                        style="@style/tv1_item_check"
+                        android:text="盘点结果" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

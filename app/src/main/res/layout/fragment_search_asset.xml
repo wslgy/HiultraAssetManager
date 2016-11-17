@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="@string/text_asset_code" />
+
+                    <TextView
+                        android:id="@+id/tv_code"
+                        style="@style/default_right"
+                        android:background="@drawable/editext_2" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="@string/text_asset_model" />
+
+                    <Spinner
+                        android:id="@+id/sp_model"
+                        style="@style/default_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/default_ll"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="标签类型" />
+
+                    <Spinner
+                        android:id="@+id/sp_type"
+                        style="@style/default_right" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="@string/text_asset_name" />
+
+                    <EditText
+                        android:id="@+id/et_name"
+                        style="@style/default_right"
+                        android:background="@drawable/edittext_ok" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="@string/text_asset_spec" />
+
+                    <EditText
+                        android:id="@+id/et_specification"
+                        style="@style/default_right"
+                        android:background="@drawable/edittext_ok" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="资产原值" />
+
+                    <EditText
+                        android:id="@+id/et_assetValue"
+                        style="@style/default_right"
+                        android:background="@drawable/edittext_ok" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="资产净值" />
+
+                    <EditText
+                        android:id="@+id/et_netWorth"
+                        style="@style/default_right"
+                        android:background="@drawable/edittext_ok" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="使用年限" />
+
+                    <EditText
+                        android:id="@+id/et_useYears"
+                        style="@style/default_right"
+                        android:background="@drawable/edittext_ok"
+                        android:inputType="number" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="品牌" />
+
+                    <EditText
+                        android:id="@+id/et_Brand"
+                        style="@style/default_right"
+                        android:background="@drawable/edittext_ok"
+                         />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="产地" />
+
+                    <EditText
+                        android:id="@+id/et_ProduceAddress"
+                        style="@style/default_right"
+                        android:background="@drawable/edittext_ok"
+                         />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="折旧方式" />
+
+                    <EditText
+                        android:id="@+id/et_DepreciationType"
+                        style="@style/default_right"
+                        android:background="@drawable/edittext_ok" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="@string/text_department" />
+
+                    <TextView
+                        android:id="@+id/tv_depart"
+                        style="@style/default_right"
+                        android:background="@drawable/editext_2" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="@string/text_user" />
+
+                    <TextView
+                        android:id="@+id/tv_user"
+                        style="@style/default_right"
+                        android:background="@drawable/editext_2" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="管理部门" />
+
+                    <TextView
+                        android:id="@+id/tv_storageDepart"
+                        style="@style/default_right"
+                        android:background="@drawable/editext_2" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="管理人" />
+
+                    <TextView
+                        android:id="@+id/tv_storageUser"
+                        style="@style/default_right"
+                        android:background="@drawable/editext_2" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="@string/text_warehouse" />
+
+                    <TextView
+                        android:id="@+id/tv_warehouse"
+                        style="@style/default_right"
+                        android:background="@drawable/editext_2" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/default_ll" >
+
+                    <TextView
+                        style="@style/default_text"
+                        android:text="资产状态" />
+
+                    <TextView
+                        android:id="@+id/tv_status"
+                        style="@style/default_right"
+                        android:background="@drawable/editext_2" />
+                </LinearLayout>
+
+                <com.hiultra.assetManagerNeutral.ui.view.RatioImageView
+                    android:id="@+id/iv_picture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/rl_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_translucent"
+            android:clickable="true"
+            android:visibility="gone" >
+
+            <ProgressBar
+                android:id="@+id/pb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/tv_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pb"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="扫描标签..."
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_btn"
+            android:text="扫描"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_setPower"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_btn"
+            android:text="功率"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_picture"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_btn"
+            android:text="照片"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bg_btn"
+            android:text="保存"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

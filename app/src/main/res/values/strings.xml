@@ -1,0 +1,117 @@
+<resources>
+
+    <string name="app_name">资产管理</string>
+    <string name="str_login_username">帐号</string>
+    <string name="str_login_password">密码</string>
+    <string name="login_button_text">登录</string>
+    <string name="string_setip_port">设置</string>
+    <!-- RFID模块 -->
+    <string name="notification_title">CMCID</string>
+    <string name="notification_content">www.cmcrfid.com</string>
+    <string name="msg_device_not_open">设备没有打开或者USB口被占用</string>
+    <string name="msg_service_init_fail">服务初始化失败</string>
+    <string name="msg_restart">服务绑定失败，可以尝试重新绑定！</string>
+    <string name="msg_button_ok">确定</string>
+    <string name="msg_button_no">取消</string>
+    <string name="msg_button_clean">清空</string>
+    <string name="msg_button_faka">发卡</string>
+    <string name="title_confirm_finish">确认结束</string>
+    <string name="title_outDetail">出库详情</string>
+    <string name="title_inDetail">入库详情</string>
+    <string name="title_maintainDetail">维护详情</string>
+    <string name="title_groupDetail">装备类别</string>
+    <string name="msg_nullMaterialInfo">获取装备信息失败,请同步装备词典</string>
+    <string name="msg_asyncMaterialInfo">请同步数据词典</string>
+    <string name="in_first">该资产尚未执行入库手续</string>
+    <string name="uhf_power">输出功率（dBm）</string>
+    <string name="uhf_working">工作时间（ms）</string>
+    <string name="uhf_sleep">休眠时间（ms）</string>
+    <string name="msg_set_power">设置功率</string>
+    <string name="msg_set_power_ok">设置功率成功</string>
+    <string name="msg_set_power_no">设置功率失败</string>
+
+    <!-- 整改后 -->
+    <string name="test_text">测试文本</string>
+    <string name="msg_loginFailed">登录失败</string>
+    <string name="msg_loginSuccess">登录成功</string>
+    <string name="msg_noData">没有任何信息,请先同步数据</string>
+    <string name="title_confirm">请确认</string>
+    <string name="title_cancel">取消</string>
+    <string name="title_setIp">设置IP和端口号</string>
+    <string name="text_all_model">全部分类</string>
+    <string name="text_all_depart">所有部门</string>
+    <string name="text_update_success">更新成功</string>
+    <string name="text_update_failed">更新失败</string>
+    <string name="text_click_clean">点击清空</string>
+    <string name="text_click_upload">点击上传</string>
+    <string name="text_confirm_clean">确认清空 </string>
+    <string name="text_clean_complete">清空完成 </string>
+    <string name="text_null_data">无数据下载</string>
+    <string name="text_null_data_upload">无数据上传</string>
+    <string name="text_download_error">下载出错</string>
+    <string name="text_download_complete">下载完成</string>
+    <string name="text_uploading">上传中</string>
+    <string name="text_upload_error">上传出错</string>
+    <string name="text_upload_complete">上传完成</string>
+    <string name="text_waiting">等待中</string>
+    
+    <!-- 资产状态 -->
+    <string name="assetStatus_notIn">未入库</string>
+    <string name="assetStatus_in">入库</string>
+    <string name="assetStatus_out">出库</string>
+    <string name="assetStatus_scrap">报废</string>
+    <string name="assetStatus_lossScrap">盘亏报废</string>
+    <!-- 盘点结果 -->
+    <string name="checkResult_normal">正常</string>
+    <string name="checkResult_loss">盘亏</string>
+    <string name="checkResult_profit">盘盈</string>
+    <!-- 入库单状态 -->
+    <string name="inStatus_start">预入库</string>
+    <string name="inStatus_finish">已入库</string>
+    <!-- 盘点单状态 -->
+    <string name="checkStatus_end">盘点结束</string>
+    <string name="checkStatus_checking">盘点中</string>
+    <!-- 维护单状态 -->
+    <string name="maintainStatus_start">待维护</string>
+    <string name="maintainStatus_finish">已维护</string>
+    <!-- 出库单状态 -->
+    <string name="outStatus_start">预出库</string>
+    <string name="outStatus_finish">已出库</string>
+    <string name="outStatus_return">已归还</string>
+
+    <!-- 底部导航栏 -->
+    <string name="title_tab_assetManager">资产管理</string>
+    <string name="title_tab_data">数据同步</string>
+    <string name="title_tab_search">资产查询</string>
+
+    <!-- 数据交互模块 -->
+    <string name="title_base">基础信息</string>
+    <string name="title_transfer">调拨信息</string>
+    <string name="title_scrap">报废信息</string>
+    <string name="title_stop">报停信息</string>
+    <string name="title_inspection">巡检信息</string>
+    <string name="title_check">盘点信息</string>
+    <string name="title_handle">处置信息</string>
+    <string name="title_repair">维修信息</string>
+
+    <!-- 资产内容 -->
+    <string name="title_infoDetail">资产详情</string>
+    <string name="text_asset_code">资产编码</string>
+    <string name="text_barCode">标签号</string>
+    <string name="text_asset_name">资产名称</string>
+    <string name="text_asset_spec">资产规格</string>
+    <string name="text_asset_model">资产分类</string>
+    <string name="text_department">使用部门</string>
+    <string name="text_user">使用人</string>
+    <string name="text_warehouse">存放地点</string>
+    <string name="text_result_check">盘点结果</string>
+    <string name="text_number_transfer">调拨单号</string>
+    
+    <!--  -->
+    <string name="text_confirm_unbinding">该资产已绑定标签,确定解除绑定?</string>
+    <string name="msg_write_failed">发卡失败,请重试</string>
+    <string name="msg_write_success">发卡成功</string>
+    <string name="msg_writeing">正在发卡...</string>
+    <string name="exception_null_widgetInfo">widgetInfo不能为空</string>
+
+</resources>

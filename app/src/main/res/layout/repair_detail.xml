@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99999999"
+    android:layout_gravity="center" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+       	android:background="@color/white">
+   	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="维修费用：" />
+
+                 <EditText
+                    android:id="@+id/et_repair_out"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_ok"
+                    android:gravity="top|left"
+                    android:inputType="textMultiLine"
+                    android:maxLines="1"/>
+            </LinearLayout>
+             
+           <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" 
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="维修内容：" />
+
+                <EditText
+                    android:id="@+id/repair_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_ok"
+                    android:gravity="top|left"
+                     />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="是否维修完成:" />
+
+                 <Spinner
+                    android:id="@+id/id_spinner_statues"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    />
+            </LinearLayout>
+           
+	 		<LinearLayout
+		        android:id="@+id/id_linerlayout" 
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+                android:layout_weight="1"
+		        android:orientation="horizontal"
+		        android:layout_marginTop="50dp">
+		        <Button 
+		            android:id="@+id/id_cancle"
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="1"
+				    android:text="取消"
+				    android:textColor="@color/white"
+				    android:background="@color/theme_color"
+				    android:layout_margin="5dp"/>
+		         <Button 
+		            android:id="@+id/id_ok"
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="1"
+				    android:text="确定"
+				     android:textColor="@color/white"
+				    android:background="@color/theme_color"
+				    android:layout_margin="5dp"/>
+		    </LinearLayout>
+    		</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

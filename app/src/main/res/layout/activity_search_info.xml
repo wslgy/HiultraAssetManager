@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+     <include
+            android:id="@+id/include_main_head"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            layout="@layout/layout_head" />
+      <ScrollView
+          	android:layout_below="@id/include_main_head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" 
+            android:layout_marginBottom="55dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+				<LinearLayout style="@style/ll_detail_item_inspect" >
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="资产名称 :" />
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_name"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+                <View style="@style/SingleLine" />
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="标签号 :" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_barcode"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+                <View style="@style/SingleLine" />
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="存放地点 :" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_warehouse"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+                <View style="@style/SingleLine" />
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="AHU系统 :" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter1"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="System Name:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter2"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="Devicece Instance:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter3"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="MS/TP MAC地址 :" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter4"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="Box分类号 :" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter5"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="资产原值 :" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter6"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="CMH CLG Min flow:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter7"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="CMH CLG Max flow:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter8"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="HTG  Min:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter9"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="HTG  max:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter10"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="BOX入口面积:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter11"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="Flow Efficent:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter12"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="CLG(L/S) Max flow:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter13"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="CLG(L/S) Min flow:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter14"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="HTG(L/S)Min flow:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter15"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="HTG(L/S)Max flow:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter16"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="控制器型号:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter17"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="控制器厂家:" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_Parameter18"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="资  产  状  态 :  " />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_status"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+
+                <LinearLayout style="@style/ll_detail_item_inspect" >
+
+                    <TextView
+                        style="@style/tv_detail_item_inspect_left"
+                        android:text="入  库  时  间 :  " />
+
+                    <TextView
+                        android:id="@+id/tv_detail_inspect_enterDate"
+                        style="@style/tv_detail_item_inspect_right" />
+                </LinearLayout>
+
+                <View style="@style/SingleLine" />
+                
+            </LinearLayout>
+        </ScrollView>
+	<Button 
+	    android:id="@+id/id_button_search"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_alignParentBottom="true"
+	    android:background="@color/theme_color"
+	    android:text="点击扫卡"
+	    android:textColor="@color/white" />
+</RelativeLayout>

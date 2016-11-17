@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="调拨单号" />
+
+        <TextView
+            android:id="@+id/tv_number"
+            style="@style/default_right"
+            android:background="@drawable/editext_2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="新使用单位" />
+
+        <Spinner
+            android:id="@+id/sp_department"
+            style="@style/default_right" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="新使用人" />
+
+        <Spinner
+            android:id="@+id/sp_user"
+            style="@style/default_right" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="新管理单位" />
+
+        <Spinner
+            android:id="@+id/sp_storageDepartment"
+            style="@style/default_right" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="新管理人" />
+
+        <Spinner
+            android:id="@+id/sp_storageUser"
+            style="@style/default_right" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="新存放位置" />
+
+        <Spinner
+            android:id="@+id/sp_warehouse"
+            style="@style/default_right" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="备注" />
+
+        <EditText
+            android:id="@+id/et_remark"
+            style="@style/default_right"
+            android:background="@drawable/edittext_ok" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="调拨数量" />
+
+        <TextView
+            android:id="@+id/tv_count"
+            style="@style/default_right" />
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_bg_btn"
+            android:text="调拨结束"
+            android:textSize="13sp" />
+    </LinearLayout>
+    
+    <com.hiultra.assetManagerNeutral.ui.view.SwipeDismissListView 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/lv"
+        />
+
+</LinearLayout>

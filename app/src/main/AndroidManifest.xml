@@ -1,0 +1,81 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.minttown.hiultra"
+    android:versionCode="4"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="21" />
+
+    <!-- BugHD -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 硬件声明 -->
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:name="com.hiultra.assetManagerNeutral.global.App"
+        android:allowBackup="true"
+        android:icon="@drawable/image_login_headtwo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!-- <<<<<<整改后>>>>>> -->
+        <!-- 登录界面 -->
+        <activity
+            android:name="com.hiultra.assetManagerNeutral.ui.activity.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 资产管理详情界面 -->
+        <activity
+            android:name="com.hiultra.assetManagerNeutral.ui.activity.AssetContentActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+        <!-- 主界面 -->
+        <activity
+            android:name="com.hiultra.assetManagerNeutral.ui.activity.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+        <service
+            android:name="com.hiultra.assetManagerNeutral.UHF.DeviceService"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+            android:resource="@xml/device_filter" />
+
+        <!-- BugHD配置 -->
+        <meta-data
+            android:name="BUG_HD_SDK_GENERAL_KEY"
+            android:value="0e8d0acdcd41df238d77e220b7c9e74d" />
+    </application>
+
+</manifest>

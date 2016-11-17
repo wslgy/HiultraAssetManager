@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep_err.wav",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\raw\\beep_err.wav"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep_ok.wav",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\raw\\beep_ok.wav"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\raw\\msg.wav",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\raw\\msg.wav"
+    }
+]

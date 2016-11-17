@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0dp" 
+		android:layout_weight="1" 
+		android:orientation="vertical">
+	<include
+        android:id="@+id/include_main_head"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        layout="@layout/layout_head" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="2dp"
+        android:background="@drawable/edittext_ok"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lv_binding"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+    </LinearLayout>
+	</LinearLayout>
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="bottom"
+		android:orientation="vertical">
+		<Button
+		    android:id="@+id/id_check_BinDing"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="查看已绑定资产" 
+			android:background="@color/theme_color"
+			android:textColor="@color/white"/>
+	</LinearLayout>
+</LinearLayout>

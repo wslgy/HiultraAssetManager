@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="HandleType">
+        <item>变卖</item>
+        <item>抵押</item>
+        <item>捐赠</item>
+        <item>丢失</item>
+        <item>转让</item>
+    </string-array>
+    
+    <string-array name="item_data">
+        <item >下载</item>
+        <item >上传</item>
+        <item >清空</item>
+    </string-array>
+    
+    <!-- 资产管理模块图标 -->
+    <array name="item_icon_asset">
+        <item>@drawable/img_maintain_choose_asset</item>
+        <item>@drawable/img_transfer_choose_asset</item>
+        <item>@drawable/img_scrap_choose_asset</item>
+        <item>@drawable/img_stop_choose_asset</item>
+        <item>@drawable/img_check_choose_asset</item>
+        <item>@drawable/img_inspection_choose_asset</item>
+        <item>@drawable/img_handle_choose_asset</item>
+        <item>@drawable/img_repair_choose_asset</item>
+    </array>
+    
+    <string-array name="item_title_asset">
+        <item >资产发卡</item>
+        <item >资产调拨</item>
+        <item >资产报废</item>
+        <item >资产报停</item>
+        <item >资产盘点</item>
+        <item >资产巡检</item>
+        <item >资产处置</item>
+        <item >资产维修</item>
+    </string-array>
+
+    <!-- SpringViewPager -->
+    <array name="indicator_colors">
+        <item>@color/indicator_1</item>
+        <item>@color/indicator_2</item>
+        <item>@color/indicator_3</item>
+        <item>@color/indicator_4</item>
+    </array>
+
+</resources>

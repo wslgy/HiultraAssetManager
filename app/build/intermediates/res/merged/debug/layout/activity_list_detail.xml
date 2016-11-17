@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	<include
+        android:id="@+id/include_main_head"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        layout="@layout/layout_head" />
+         <TextView
+            android:id="@+id/id_tv_materialCode"
+            style="@style/TextView_listDatail"
+            android:text="资产编码:" />
+ 		<View
+ 		    style="@style/SingleLine"/>"
+		<TextView
+		    android:id="@+id/id_tv_name"
+            style="@style/TextView_listDatail"
+            android:text="资产名称:" />
+		<View
+ 		    style="@style/SingleLine"/>"
+		<TextView
+		    android:id="@+id/id_tv_BarCode"
+            style="@style/TextView_listDatail"
+            android:text="标签号:" />
+		<View
+ 		    style="@style/SingleLine"/>"
+		<TextView
+		    android:id="@+id/id_tv_specification"
+            style="@style/TextView_listDatail"
+            android:text="Specification:" />
+		<View
+ 		    style="@style/SingleLine"/>"
+		<TextView
+		    android:id="@+id/id_tv_assetModel"
+            style="@style/TextView_listDatail"
+            android:text="资产型号:" />
+		<View
+ 		    style="@style/SingleLine"/>"
+		<TextView
+		    android:id="@+id/id_tv_department"
+            style="@style/TextView_listDatail"
+            android:text="管理部门:" />
+		<View
+ 		    style="@style/SingleLine"/>"
+		<TextView
+		    android:id="@+id/id_tv_user"
+            style="@style/TextView_listDatail"
+            android:text="使用人员:" />
+		<View
+ 		    style="@style/SingleLine"/>"
+		<TextView
+		    android:id="@+id/id_tv_wareHouse"
+            style="@style/TextView_listDatail"
+            android:text="存放地点:" />
+		<View
+ 		    style="@style/SingleLine"/>"
+		<TextView
+		    android:id="@+id/id_tv_status"
+            style="@style/TextView_listDatail"
+            android:text="资产状态:" />
+		<View
+ 		    style="@style/SingleLine"/>"
+</LinearLayout>

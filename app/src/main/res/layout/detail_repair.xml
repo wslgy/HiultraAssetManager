@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/text_asset_model" />
+
+        <TextView
+            android:id="@+id/tv_model"
+            style="@style/default_right"
+            android:background="@drawable/editext_2"
+             />
+    </LinearLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/text_asset_code" />
+
+        <TextView
+            android:id="@+id/tv_code"
+            style="@style/default_right"
+            android:background="@drawable/editext_2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/text_asset_name" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/default_right"
+            android:background="@drawable/editext_2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/text_asset_spec" />
+
+        <TextView
+            android:id="@+id/tv_specification"
+            style="@style/default_right"
+            android:background="@drawable/editext_2" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/text_department" />
+
+        <TextView
+            android:id="@+id/tv_depart"
+            style="@style/default_right"
+            android:background="@drawable/editext_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/v_InStockQuantity_scrap"
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/text_user" />
+
+        <TextView
+            android:id="@+id/tv_user"
+            style="@style/default_right"
+            android:background="@drawable/editext_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/v_count_scrap"
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/text_warehouse" />
+
+        <TextView
+            android:background="@drawable/editext_2"
+            android:id="@+id/tv_warehouse"
+            style="@style/default_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="维修费用" />
+
+        <EditText
+            android:background="@drawable/edittext_ok"
+            android:id="@+id/et_cost"
+            style="@style/default_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="维修内容" />
+
+        <EditText
+            android:background="@drawable/edittext_ok"
+            android:id="@+id/et_content"
+            style="@style/default_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="是否完成" />
+
+        <Spinner
+            android:id="@+id/sp_isRepair"
+            style="@style/default_right" />
+    </LinearLayout>
+
+</LinearLayout>

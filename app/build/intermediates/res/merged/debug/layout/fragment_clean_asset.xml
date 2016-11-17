@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_assetBase"
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/title_base" />
+
+        <TextView
+            android:id="@+id/tv_base"
+            style="@style/default_right_center"
+            android:text="@string/text_click_clean" />
+
+        <ImageView
+            android:id="@+id/iv_base"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/icon_del" />
+    </LinearLayout>
+
+    <View style="@style/default_devide" />
+
+    <LinearLayout
+        android:id="@+id/ll_assetTransfer"
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/title_transfer" />
+
+        <TextView
+            android:id="@+id/tv_transfer"
+            style="@style/default_right_center"
+            android:text="@string/text_click_clean" />
+
+        <ImageView
+            android:id="@+id/iv_transfer"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/icon_del" />
+    </LinearLayout>
+
+    <View style="@style/default_devide" />
+
+    <LinearLayout
+        android:id="@+id/ll_assetCheck"
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/title_check" />
+
+        <TextView
+            android:id="@+id/tv_check"
+            style="@style/default_right_center"
+            android:text="@string/text_click_clean" />
+
+        <ImageView
+            android:id="@+id/iv_check"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/icon_del" />
+    </LinearLayout>
+
+    <View style="@style/default_devide" />
+
+    <LinearLayout
+        android:id="@+id/ll_assetHandle"
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/title_handle" />
+
+        <TextView
+            android:id="@+id/tv_handle"
+            style="@style/default_right_center"
+            android:text="@string/text_click_clean" />
+
+        <ImageView
+            android:id="@+id/iv_handle"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/icon_del" />
+    </LinearLayout>
+
+    <View style="@style/default_devide" />
+
+    <LinearLayout
+        android:id="@+id/ll_assetInspection"
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/title_inspection" />
+
+        <TextView
+            android:id="@+id/tv_inspection"
+            style="@style/default_right_center"
+            android:text="@string/text_click_clean" />
+
+        <ImageView
+            android:id="@+id/iv_inspection"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/icon_del" />
+    </LinearLayout>
+
+    <View style="@style/default_devide" />
+
+    <LinearLayout
+        android:id="@+id/ll_assetRepair"
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/title_repair" />
+
+        <TextView
+            android:id="@+id/tv_repair"
+            style="@style/default_right_center"
+            android:text="@string/text_click_clean" />
+
+        <ImageView
+            android:id="@+id/iv_repair"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/icon_del" />
+    </LinearLayout>
+
+    <View style="@style/default_devide" />
+
+    <LinearLayout
+        android:id="@+id/ll_assetScrap"
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/title_scrap" />
+
+        <TextView
+            android:id="@+id/tv_scrap"
+            style="@style/default_right_center"
+            android:text="@string/text_click_clean" />
+
+        <ImageView
+            android:id="@+id/iv_scrap"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/icon_del" />
+    </LinearLayout>
+
+    <View style="@style/default_devide" />
+
+    <LinearLayout
+        android:id="@+id/ll_assetStop"
+        style="@style/default_ll" >
+
+        <TextView
+            style="@style/default_text"
+            android:text="@string/title_stop" />
+
+        <TextView
+            android:id="@+id/tv_stop"
+            style="@style/default_right_center"
+            android:text="@string/text_click_clean" />
+
+        <ImageView
+            android:id="@+id/iv_stop"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/icon_del" />
+    </LinearLayout>
+
+    <View style="@style/default_devide" />
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:id="@+id/include_main_head"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            layout="@layout/layout_head" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/include_main_head"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="盘点主题：" />
+
+                    <Spinner
+                        android:id="@+id/spr_inventory_theme"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/spinner_background"
+                        android:gravity="center"
+                        android:text="随边" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/gray_list_item" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="盘点结果：" />
+
+                    <TextView
+                        android:id="@+id/et_inventory_number"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center|left"
+                        android:text="0/0" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/gray_list_item" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="盘点备注：" />
+
+                    <EditText
+                        android:id="@+id/et_Inventory_content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_ok"
+                        android:gravity="top|left"
+                        android:inputType="textMultiLine"
+                        android:maxLines="2"
+                        android:minLines="2" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/gray_list_item" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_scan"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/Inventory_Scan"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="扫描" />
+
+                <Button
+                    android:id="@+id/Inventory_clear"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="清空" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv_inventory"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@null"
+                android:background="#ffffff" >
+            </ListView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/detail_item_inventory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        layout="@layout/detail_item_inspect"
+        android:visibility="gone" />
+
+</FrameLayout>

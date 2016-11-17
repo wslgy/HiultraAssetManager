@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_main_head"
+        android:layout_above="@id/btn_goods_scan" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="存放位置 ：" />
+
+                <Spinner
+                    android:id="@+id/spr_stock_warehouse"
+                    style="@style/common_spinner" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="条  形  码 ：" />
+
+                <TextView
+                    android:id="@+id/tv_stock_barcode"
+                    style="@style/common_right_textview" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="库存数量 ：" />
+
+                <TextView
+                    android:id="@+id/tv_stock_number"
+                    style="@style/common_right_textview" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="物品名称 ：" />
+
+                <TextView
+                    android:id="@+id/tv_stock_name"
+                    style="@style/common_right_textview" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="类别名称 ：" />
+
+                <TextView
+                    android:id="@+id/tv_stock_model_name"
+                    style="@style/common_right_textview" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="建议单价 ：" />
+
+                <TextView
+                    android:id="@+id/tv_stock_price"
+                    style="@style/common_right_textview" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="物品规格 ：" />
+
+                <TextView
+                    android:id="@+id/tv_stock_specification"
+                    style="@style/common_right_textview" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="物品型号 ：" />
+
+                <TextView
+                    android:id="@+id/tv_stock_model"
+                    style="@style/common_right_textview" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_goods_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_bg"
+        android:text="扫描"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

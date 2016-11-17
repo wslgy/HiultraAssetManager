@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include_main_head"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        layout="@layout/layout_head" />
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/include_main_head">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="退回位置 ：" />
+
+                <Spinner
+                    android:id="@+id/spr_out_location"
+                    style="@style/common_spinner" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="退回部门 ：" />
+
+                <Spinner
+                    android:id="@+id/spr_out_department"
+                    style="@style/common_spinner" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="退  库  人 ：" />
+
+                 <Spinner
+                    android:id="@+id/spr_out_person"
+                    style="@style/common_spinner" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="条  形  码 ：" />
+
+                <TextView
+                    android:id="@+id/tv_out_barcode"
+                    style="@style/common_right_textview" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="退库数量 ：" />
+
+                <EditText
+                    android:id="@+id/et_out_number"
+                    style="@style/common_right_textview"
+                    android:hint="请输入退库数量"
+                    android:inputType="number"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="退库时间 ：" />
+
+                <TextView
+                    android:id="@+id/tv_out_time"
+                    style="@style/common_right_textview" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="物品名称 ：" />
+
+                <TextView
+                    android:id="@+id/tv_out_name"
+                    style="@style/common_right_textview" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="类别名称 ：" />
+
+                <TextView
+                    android:id="@+id/tv_out_model_name"
+                    style="@style/common_right_textview" />
+            </LinearLayout>
+
+            <View style="@style/SingleLine" />
+
+            <LinearLayout style="@style/common_linearlayout" >
+
+                <TextView
+                    style="@style/common_textview"
+                    android:text="备        注  ：" />
+                <EditText
+                    android:id="@+id/et_out_remark"
+                    style="@style/common_edittext"
+                    android:gravity="top|left"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View style="@style/SingleLine" />
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button 
+                android:id="@+id/btn_goods_add"
+                style="@style/common_center_button"
+                android:text="添  加"/>
+            <Button 
+                android:id="@+id/btn_goods_clear"
+                style="@style/common_center_button"
+                android:text="清  除"/>
+        </LinearLayout>
+         <View style="@style/SingleLine" />
+         <ListView 
+            android:id="@+id/lv_goods_out"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+    </LinearLayout>
+     </LinearLayout>
+    <Button
+        android:id="@+id/btn_goods_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_bg"
+        android:text="扫描"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

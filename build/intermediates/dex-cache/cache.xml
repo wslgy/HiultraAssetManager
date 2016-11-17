@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_1cba81bce0bd81be70c3a79378b16a7160d2df12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\libs\ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6e6d14301616c866b7eff210ece6579299417ec">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.5.8-jar-with-dependencies_3119ac237df36e1bd2c8d0fe34f30e2c0a0e3182.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_19f4a53f1727e985308ec34aa9fe6d10e183180c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_31b8fa08503c7f1025f5031bd8b7e40c7d951503.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\libs\Bughd_android_sdk_v1.3.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="defde21f1d2b852279dcdc5f0911ae3688f86c0a">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\Bughd_android_sdk_v1.3.7_36a6adca5a8e11198a6be5794451b751d1a2267b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\libs\swipemenulistview.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a5753fa0141a7226b02829522c274d7543366622">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\swipemenulistview_9dfb105798749cf24220f41647ce7de4ccfc86aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_61e9450b8a7a1e0528c9c58d876c95a23677a5cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_36ca825cd854ac5a0f2afd09ce1e68716f2f2e40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-18.0.0_179db2eb38b924438a043888002b798e45758172.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_ea40f1aa3fd48c6c53697b69af1967fc719d075e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\libs\CMCIDV2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e948bcd7b5b15845697e11ccdb97812fd8c8a2f">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\CMCIDV2.0.1_22e2fe963f4fd629a01f3267d6ead5c7abb4c6af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_28a127125e341d0653063f384e60e2a61108d170.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_fad2eed6962046c88aaa252d319cf151a6e5408d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidTools\Studio\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\gson-2.2.4_1c717cbcb85335d6c6165d24263132cc2dca826d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ac094121e75b4b87432beb9305d70c68ec6dcab">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-v13-25.0.0_670c5a2905189185371f5102bbfd0cd4fc8194a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67355078cd30daae43f62ba47a4663ee6edb976e">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_c5c63996706dc7ad071acc38f1b1336abb0f8aa5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_1c77c8376b339fdce5e372c683244a993533adc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_77819a22dc75d4d05fa7861b7cda2fd1fe226563.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_be4d03fb2d33d0946d8a5f7e34195324a68367f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_f0bbca585df10e38245290815cb5e920e92d7a26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\libs\d2xx.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="549d88cce99830dc2ae951a13d5a8b897362351b">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\d2xx_5864853720df22990053e58cbe8e00ac7dc275e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\libs\wmqtt.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc86f8fb0a55738adc56d1a3320d39a5b71fb04c">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\wmqtt_ef5a7cf4c66e571c98434faf693b9e74bc0d86b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\libs\xUtils-2.6.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c42ff65f4c9401024b06ea93b44ee3b30d0e38b4">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\xUtils-2.6.7_7d1a0999186f37c296db40420bedbe3cf348795e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidTools\Studio\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_ee28ccb010fec68b41287ab213dcfce5503d0730.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_6701ba09e3a2e8dcd3d3d4751b42027c892f99a6.jar" />
+    </item>
+
+</items>
