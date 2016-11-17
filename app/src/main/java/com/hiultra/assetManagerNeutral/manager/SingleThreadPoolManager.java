@@ -21,8 +21,7 @@ public class SingleThreadPoolManager {
 
     /**
      * 如果调用者指定了corePoolSize，否则使用默认的核心线程数
-     * 
-     * @param corePoolSize
+     *
      */
     private SingleThreadPoolManager() {
 //        int poolSize = Runtime.getRuntime().availableProcessors() * 2 + 1;// 最高效率的线程数
