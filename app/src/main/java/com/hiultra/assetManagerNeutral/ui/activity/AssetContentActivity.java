@@ -70,7 +70,7 @@ public class AssetContentActivity extends BaseUhfActivity implements OnItemClick
             StartLvItem item = new StartLvItem(Util.getDrawable(iconArray[i]), titleArray[i]);
             itemList.add(item);
         }
-        
+        // 测试
         ItemAdapter itemAdapter = new ItemAdapter(this, itemList);
         lvStart.setSelector(new ColorDrawable());
         lvStart.setAdapter(itemAdapter);
