@@ -1,18 +1,14 @@
 package com.hiultra.assetManagerNeutral.ui.activity;
 
-import java.util.ArrayList;
-
 import android.app.FragmentTransaction;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.ActionBarDrawerToggle;
-
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.FrameLayout;
@@ -35,6 +31,8 @@ import com.lidroid.xutils.exception.DbException;
 import com.lidroid.xutils.view.annotation.ContentView;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.minttown.hiultra.R;
+
+import java.util.ArrayList;
 
 /**
  * 资产管理内容界面
@@ -96,15 +94,18 @@ public class AssetContentActivity extends BaseUhfActivity implements OnItemClick
     }
     
     private void initActionBar() {
-        actionBar.setTitle(R.string.app_name);
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        setActionBar(toolbar);
+        toolbar.setTitle(R.string.app_name);
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+//        toolbar.setDisplayHomeAsUpEnabled(true);
         // actionBar.setDisplayShowHomeEnabled(true);
         // 设置汉堡包图片
-        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer_am, 0, 0);
+        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, 0, 0);
         mDrawerToggle.syncState(); // 同步状态
         mDrawerLayout.setDrawerListener(mDrawerToggle);
         // 设置ActionBar背景
-        actionBar.setBackgroundDrawable(Util.getDrawable(R.drawable.bg_actionbar));
+        toolbar.setBackgroundDrawable(Util.getDrawable(R.drawable.bg_actionbar));
     }
     
     private void initFragment() {
@@ -136,8 +137,8 @@ public class AssetContentActivity extends BaseUhfActivity implements OnItemClick
             transaction.replace(R.id.layout_content, currentFragment);
             transaction.commit();
             // 变更ActionBar标题
-            actionBar.setTitle(itemList.get(position).getTitle());
-            actionBar.setLogo(iconArray[position]);
+            toolbar.setTitle(itemList.get(position).getTitle());
+            toolbar.setLogo(iconArray[position]);
         }
     }
     

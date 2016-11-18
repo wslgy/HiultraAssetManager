@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_1cba81bce0bd81be70c3a79378b16a7160d2df12.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\HiultraProjects\HiultraAssetManager\app\libs\ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar"
         jumboMode="false"
         optimize="true"
@@ -21,21 +12,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_19f4a53f1727e985308ec34aa9fe6d10e183180c.jar" />
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_7dc8c883a0c0869aa0015f03b2d4979d29e5bf23.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="D:\AndroidTools\Studio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_31b8fa08503c7f1025f5031bd8b7e40c7d951503.jar" />
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_b15a55196156e504a3146261524989826bf29423.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,30 +57,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_36ca825cd854ac5a0f2afd09ce1e68716f2f2e40.jar" />
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.0_fad246b54dc65b94b7730300a45405761bea11dd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-18.0.0_179db2eb38b924438a043888002b798e45758172.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_ea40f1aa3fd48c6c53697b69af1967fc719d075e.jar" />
+        sha1="bb0ac3f3ee2d71854501cc28e52cc84a20209b41">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.0.0_ad0a6e485d58382ed76723f587d3db570c95b608.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,21 +84,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_28a127125e341d0653063f384e60e2a61108d170.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_fad2eed6962046c88aaa252d319cf151a6e5408d.jar" />
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_edb3a8b2e16b671f9050b72823f936c1d11754d5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -126,60 +99,6 @@
         revision="25.0.0"
         sha1="a60a5e993c98c864010053cb901b7eab25306568">
         <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\gson-2.2.4_1c717cbcb85335d6c6165d24263132cc2dca826d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6ac094121e75b4b87432beb9305d70c68ec6dcab">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-v13-25.0.0_670c5a2905189185371f5102bbfd0cd4fc8194a3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="67355078cd30daae43f62ba47a4663ee6edb976e">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_c5c63996706dc7ad071acc38f1b1336abb0f8aa5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_1c77c8376b339fdce5e372c683244a993533adc4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_77819a22dc75d4d05fa7861b7cda2fd1fe226563.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_be4d03fb2d33d0946d8a5f7e34195324a68367f2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_f0bbca585df10e38245290815cb5e920e92d7a26.jar" />
     </item>
     <item
         is-multidex="false"
@@ -201,21 +120,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5d4bccb885c8a89d066ecb6c4addb553a99a79a2">
+        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_9a908d10279c867fa5a8eae54e4fd333dbd42954.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\HiultraProjects\HiultraAssetManager\app\libs\xUtils-2.6.7.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="c42ff65f4c9401024b06ea93b44ee3b30d0e38b4">
         <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\xUtils-2.6.7_7d1a0999186f37c296db40420bedbe3cf348795e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidTools\Studio\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="E:\HiultraProjects\HiultraAssetManager\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_ee28ccb010fec68b41287ab213dcfce5503d0730.jar" />
     </item>
     <item
         is-multidex="false"

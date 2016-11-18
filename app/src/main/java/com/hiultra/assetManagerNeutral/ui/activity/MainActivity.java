@@ -1,5 +1,6 @@
 package com.hiultra.assetManagerNeutral.ui.activity;
 
+import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 import com.hiultra.assetManagerNeutral.ui.fragment.AssetChooseFragment;
 import com.hiultra.assetManagerNeutral.ui.fragment.AssetDataFragment;
@@ -41,13 +43,13 @@ public class MainActivity extends BaseUhfActivity {
     private TextView vSearch;
     @ViewInject(R.id.container)
     private FrameLayout container;
-    
+    @ViewInject(R.id.toolbar)
+    private Toolbar toolbar;
+
     List<Fragment> fragmentList = new ArrayList<>();
     
     @Override
-    protected void initView() {
-        
-    }
+    protected void initView() {}
     
     @Override
     protected Handler initHandler() {
@@ -63,9 +65,10 @@ public class MainActivity extends BaseUhfActivity {
     }
     
     private void initActionBar() {
-        actionBar.setTitle(R.string.app_name);
-        actionBar.setIcon(R.drawable.icon_home);
-        actionBar.setDisplayHomeAsUpEnabled(false);
+        setActionBar(toolbar);
+        toolbar.setTitle(R.string.app_name);
+        toolbar.setLogo(R.drawable.icon_home);
+//        actionBar.setDisplayHomeAsUpEnabled(false);
         // actionBar.setDisplayShowHomeEnabled(true);
         // 设置汉堡包图片
         // mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
@@ -73,7 +76,7 @@ public class MainActivity extends BaseUhfActivity {
         // mDrawerToggle.syncState(); // 同步状态
         // mDrawerLayout.setDrawerListener(mDrawerToggle);
         // 设置ActionBar背景
-        actionBar.setBackgroundDrawable(Util.getDrawable(R.drawable.bg_actionbar));
+        toolbar.setBackgroundDrawable(Util.getDrawable(R.drawable.bg_actionbar));
     }
     
     private void initFragment(Bundle savedInstanceState) {

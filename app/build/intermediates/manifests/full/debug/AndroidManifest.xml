@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.minttown.hiultra"
-    android:versionCode="4"
+    android:versionCode="5"
     android:versionName="1.0" >
 
     <uses-sdk
@@ -42,7 +42,8 @@
         <!-- 登录界面 -->
         <activity
             android:name="com.hiultra.assetManagerNeutral.ui.activity.LoginActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -52,7 +53,8 @@
         <!-- 资产管理详情界面 -->
         <activity
             android:name="com.hiultra.assetManagerNeutral.ui.activity.AssetContentActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" >
             <meta-data
                 android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
                 android:resource="@xml/device_filter" />
@@ -60,7 +62,8 @@
         <!-- 主界面 -->
         <activity
             android:name="com.hiultra.assetManagerNeutral.ui.activity.MainActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" >
             <meta-data
                 android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
                 android:resource="@xml/device_filter" />
