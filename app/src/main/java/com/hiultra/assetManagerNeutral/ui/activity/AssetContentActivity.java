@@ -12,10 +12,12 @@ import android.support.v4.widget.DrawerLayout;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.FrameLayout;
 import android.widget.ListView;
+import android.widget.Toolbar;
 
 import com.hiultra.assetManagerNeutral.adapter.ItemAdapter;
 import com.hiultra.assetManagerNeutral.domain.StartLvItem;
@@ -50,7 +52,7 @@ public class AssetContentActivity extends BaseUhfActivity implements OnItemClick
     protected ListView lvStart;
     @ViewInject(R.id.layout_content)
     private FrameLayout content;
-    
+
     private ArrayList<BaseFragment> fragmentList = new ArrayList<>();
     private ArrayList<StartLvItem> itemList = new ArrayList<>();
     
@@ -133,7 +135,7 @@ public class AssetContentActivity extends BaseUhfActivity implements OnItemClick
             transaction.commit();
             // 变更ActionBar标题
             actionBar.setTitle(itemList.get(position).getTitle());
-            actionBar.setIcon(iconArray[position]);
+            actionBar.setLogo(iconArray[position]);
         }
     }
     
@@ -167,7 +169,7 @@ public class AssetContentActivity extends BaseUhfActivity implements OnItemClick
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         if (parent.getId() == R.id.lv_start) {
             changeFragment(position);
-            mDrawerLayout.closeDrawer(Gravity.START);
+            mDrawerLayout.closeDrawer(Gravity.LEFT);
         }
     }
     

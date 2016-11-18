@@ -1,5 +1,13 @@
 [
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\page_error.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\page_error.xml"
     },
@@ -32,8 +40,20 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\fragment_data_upload.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_out.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\activity_goods_out.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_repair.xml",
@@ -56,20 +76,20 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\repair_detail.xml",
-        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\repair_detail.xml"
-    },
-    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_include.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_include.xml"
     },
     {
-        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gv_asset.xml",
-        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\item_gv_asset.xml"
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\repair_detail.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\repair_detail.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_maintain.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\item_maintain.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gv_asset.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\item_gv_asset.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tabbar.xml",
@@ -96,32 +116,48 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\detail_item_inspect.xml"
     },
     {
-        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_inventory.xml",
-        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\activity_goods_inventory.xml"
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_maintain_asset.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\fragment_maintain_asset.xml"
     },
     {
-        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_clean_asset.xml",
-        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\fragment_clean_asset.xml"
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_inventory.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\activity_goods_inventory.xml"
     },
     {
-        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_head.xml",
-        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\layout_head.xml"
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_clean_asset.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\fragment_clean_asset.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listtag_items.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\listtag_items.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_head.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\layout_head.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_tag_item.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\list_tag_item.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inventory.xml",
@@ -152,6 +188,14 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\fragment_asset_manager.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_bar.xml"
     },
@@ -160,8 +204,16 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sacn.xml",
@@ -172,6 +224,10 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\include_login_center.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\list_item.xml"
     },
@@ -180,8 +236,16 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\activity_goods_in.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search_asset.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\fragment_search_asset.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
@@ -212,6 +276,10 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\grid_item.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_check.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\item_check.xml"
     },
@@ -232,8 +300,20 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\layout_stop.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawerlayout_left.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\drawerlayout_left.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_dowload.xml",
@@ -266,6 +346,10 @@
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_unbinding.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\detail_unbinding.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_assetcontent.xml",
@@ -360,6 +444,10 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\dialog_date_time.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_download_asset.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\fragment_download_asset.xml"
     },
@@ -388,8 +476,16 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\activity_goods_use.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_check_store.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\layout_check_store.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_to_load_data.xml",
@@ -414,6 +510,10 @@
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\goods_in_adapter.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\goods_in_adapter.xml"
+    },
+    {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen.xml",

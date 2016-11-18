@@ -101,8 +101,6 @@ public class Util {
     /**
      * 判断当前网络是否可用
      * 
-     * @param context
-     *            上下文
      * @return
      */
     public static boolean isNetworkConnected() {

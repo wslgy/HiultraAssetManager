@@ -6,17 +6,13 @@ import java.util.List;
 
 import android.os.SystemClock;
 import android.text.TextUtils;
-import android.text.method.DateTimeKeyListener;
 
-import com.google.gson.reflect.TypeToken;
 import com.hiultra.assetManagerNeutral.dao.DBTools;
 import com.hiultra.assetManagerNeutral.dao.table.BaseTable;
-import com.hiultra.assetManagerNeutral.dao.table.UserInfo;
 import com.hiultra.assetManagerNeutral.domain.DownloadInfo;
 import com.hiultra.assetManagerNeutral.domain.DownloadInfo.ItemInfo;
 import com.hiultra.assetManagerNeutral.manager.ThreadPoolManager;
 import com.hiultra.assetManagerNeutral.util.DateUtil;
-import com.hiultra.assetManagerNeutral.util.JsonUtil;
 import com.hiultra.assetManagerNeutral.util.Util;
 import com.hiultra.assetManagerNeutral.web.WebController;
 import com.lidroid.xutils.db.sqlite.Selector;
@@ -27,7 +23,7 @@ import com.lidroid.xutils.util.LogUtils;
 public class DownloadModel implements IModel {
     
     public static final int STATE_NONE = 0;// 初始状态
-    public static final int STATE_WAITTING = 1;// 等待状态
+    public static final int STATE_WAITING = 1;// 等待状态
     public static final int STATE_DOWNLOADING = 2;// 下载状态
     public static final int STATE_FINISH = 3;// 下载完成状态
     public static final int STATE_ERROR = 4;// 下载出错状态
@@ -54,7 +50,7 @@ public class DownloadModel implements IModel {
         if(info.getState() == STATE_NONE || info.getState() == STATE_ERROR) {
             DownloadTask downloadTask = new DownloadTask(info);
             downloadTaskMap.put(info.getTag(), downloadTask);
-            info.setState(STATE_WAITTING);
+            info.setState(STATE_WAITING);
             notifyStateChange(info);
             // 执行任务
             ThreadPoolManager.getInstance().execute(downloadTask);

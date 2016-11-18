@@ -86,7 +86,7 @@ public class DownloadHolder extends BaseHolder<ItemInfo> implements DownloadObse
                     iv.setBackgroundResource(R.drawable.icon_inbox);
                     ToastUtil.show(nullData.toString());
                     break;
-                case DownloadModel.STATE_WAITTING:
+                case DownloadModel.STATE_WAITING:
                     iv.setBackgroundResource(R.drawable.icon_wait);
                     break;
                 case DownloadModel.STATE_DOWNLOADING:
