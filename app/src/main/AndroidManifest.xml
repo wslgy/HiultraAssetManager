@@ -51,6 +51,7 @@
         <!-- 资产管理详情界面 -->
         <activity
             android:name="com.hiultra.assetManagerNeutral.ui.activity.AssetContentActivity"
+            android:theme="@style/NoActionBarTheme"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"

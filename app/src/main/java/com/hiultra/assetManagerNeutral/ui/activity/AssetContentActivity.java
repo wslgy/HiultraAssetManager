@@ -52,6 +52,8 @@ public class AssetContentActivity extends BaseUhfActivity implements OnItemClick
     protected ListView lvStart;
     @ViewInject(R.id.layout_content)
     private FrameLayout content;
+    @ViewInject(R.id.toolbar)
+    private Toolbar toolbar;
 
     private ArrayList<BaseFragment> fragmentList = new ArrayList<>();
     private ArrayList<StartLvItem> itemList = new ArrayList<>();
