@@ -59,12 +59,16 @@ public abstract class BasicAdapter<T> extends BaseAdapter {
         
         // 添加动画效果
         if (show) {
+            // 缩放动画
             ViewHelper.setScaleX(holderView, 0.5f);
             ViewHelper.setScaleY(holderView, 0.5f);
             ViewPropertyAnimator.animate(holderView).scaleX(1.0f).setDuration(350).setInterpolator(new OvershootInterpolator())
                     .start();
             ViewPropertyAnimator.animate(holderView).scaleY(1.0f).setDuration(350).setInterpolator(new OvershootInterpolator())
                     .start();
+            // 透明度动画
+//            ViewHelper.setAlpha(holderView,0);
+//            ViewPropertyAnimator.animate(holderView).alpha(1).setDuration(350).start();
         }
         
         return holderView;

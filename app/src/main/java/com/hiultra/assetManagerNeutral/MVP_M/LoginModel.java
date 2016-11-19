@@ -1,5 +1,7 @@
 package com.hiultra.assetManagerNeutral.MVP_M;
 
+import android.os.SystemClock;
+
 import com.hiultra.assetManagerNeutral.dao.DBTools;
 import com.hiultra.assetManagerNeutral.dao.table.UserInfo;
 import com.hiultra.assetManagerNeutral.global.Varible;
@@ -14,6 +16,7 @@ public class LoginModel implements IModel {
         if(Util.isNetworkConnected()) { 
             new Thread(){
                 public void run() {
+                    SystemClock.sleep(5000);
                     UserInfo u = WebUtil.Login(name, pass);
                     if(u == null) {
                         observer.loginFailed();

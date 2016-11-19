@@ -119,6 +119,7 @@ public class AssetMaintainFragment extends AsyncLoadFragment {
     @Override
     protected void initData() {
         super.initData();
+        // TODO 异步设置功率
 //        if (app.checkServiceAndDevice()) {
 //            if (app.device.setUhfPower(Constants.DEFAULT_POWER_WRITE, Constants.DEFAULT_TIME_WORKING,
 //                    Constants.DEFAULT_TIME_SLEEP)) {
@@ -189,7 +190,7 @@ public class AssetMaintainFragment extends AsyncLoadFragment {
         final Spinner spPower = (Spinner) view.findViewById(R.id.uhf_power);
         final Spinner spWorking = (Spinner) view.findViewById(R.id.uhf_working);
         final Spinner spSleep = (Spinner) view.findViewById(R.id.uhf_sleep);
-        ArrayAdapter<String> adapterTime = new ArrayAdapter<String>(mActivity, android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> adapterTime = new ArrayAdapter<>(mActivity, android.R.layout.simple_spinner_dropdown_item);
         for (int i = 1; i <= 5; i++)
             adapterTime.add(String.valueOf(i * 100));
         spWorking.setAdapter(adapterTime);
@@ -366,7 +367,7 @@ public class AssetMaintainFragment extends AsyncLoadFragment {
     /**
      * 显示资产详情
      * 
-     * @param item
+     * @param a
      */
     public void showDetail(final AssetMaterialInfo a) {
         AlertDialog.Builder builder = new AlertDialog.Builder(mActivity);

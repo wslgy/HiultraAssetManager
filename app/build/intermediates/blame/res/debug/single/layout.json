@@ -452,6 +452,10 @@
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+        "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_progressdialog.xml",
+        "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\layout_progressdialog.xml"
+    },
+    {
         "merged": "E:\\HiultraProjects\\HiultraAssetManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_download_asset.xml",
         "source": "E:\\HiultraProjects\\HiultraAssetManager\\app\\src\\main\\res\\layout\\fragment_download_asset.xml"
     },

@@ -1,6 +1,7 @@
 package com.hiultra.assetManagerNeutral.ui.activity;
 
 import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -50,6 +51,7 @@ public class LoginActivity extends BaseActivity implements ILoginView {
     private TextView tvVersion;
     @ViewInject(R.id.rl_loading)
     private View vLoading;
+    private ProgressDialog progressDialog;
     
     private LoginPresenter loginPresenter;
     
@@ -60,7 +62,11 @@ public class LoginActivity extends BaseActivity implements ILoginView {
     }
     
     @Override
-    protected void initView() {}
+    protected void initView() {
+        progressDialog = new ProgressDialog(this);
+        // 登录过程中不可取消
+        progressDialog.setCancelable(false);
+    }
     
     @Override
     protected void initData(Bundle savedInstanceState) throws DbException {
@@ -93,12 +99,15 @@ public class LoginActivity extends BaseActivity implements ILoginView {
     
     @Override
     public void showLoading() {
-        vLoading.setVisibility(View.VISIBLE);
+//        vLoading.setVisibility(View.VISIBLE);
+        progressDialog.show();
+        progressDialog.setContentView(R.layout.layout_progressdialog);
     }
     
     @Override
     public void hideLoading() {
-        vLoading.setVisibility(View.GONE);
+//        vLoading.setVisibility(View.GONE);
+        progressDialog.dismiss();
     }
     
     @Override
