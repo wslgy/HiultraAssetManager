@@ -52,6 +52,7 @@ public class AssetContentActivity extends BaseUhfActivity implements OnItemClick
     private FrameLayout content;
     @ViewInject(R.id.toolbar)
     private Toolbar toolbar;
+    // Toolbar合并分支测试
 
     private ArrayList<BaseFragment> fragmentList = new ArrayList<>();
     private ArrayList<StartLvItem> itemList = new ArrayList<>();
